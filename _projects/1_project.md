@@ -2,7 +2,7 @@
 layout: page
 title: Atomic Physics Beyond Born-Oppenheimer
 description: The Quantum Many-Body Problem
-img: assets/img/H2N0v0.pdf
+img: assets/img/H2N0v0.jpg
 importance: 1
 category: work
 ---

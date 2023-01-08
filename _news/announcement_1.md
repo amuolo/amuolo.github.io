@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-11-01 11:30:00-0000
+date: 2022-12-01 11:30:00-0000
 inline: true
 ---
 
-Nominated Chief Evangelist!
+Publishing the first <a href='https://systemorph.cloud/community/'>episode of the IFRS 17 Series</a>. Check it out!

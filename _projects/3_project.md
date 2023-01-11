@@ -5,7 +5,7 @@ description: Relativistic fermionic theory based on the Dirac Hamiltonian
 img: assets/img/rel1.png
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: research
 ---
 
 In the field of relativistic quantum mechanics, we elaborate on a relativistic fermionic theory 

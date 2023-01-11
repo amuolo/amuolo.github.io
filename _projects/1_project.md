@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Molecular Physics Beyond Born-Oppenheimer
-description: The Quantum Many-Body Problem
+title: Molecular Physics Beyond Empiricism
+description: Observe the emergence of molecular structure from the quantum theory
 img: assets/img/H2N0v0.jpg
 importance: 1
 category: research
 ---
 
-This research project concerns recent advances in the application of explicitly correlated Gaussians 
-toward numerical calculations of bound state energies, angular momentum, and pair correlation functions.
+# Is it possible to observe the emergence of molecular structure as an inherent feature 
+# of quantum theory without making empirical assumptions? 
 
 The Born-Oppenheimer (BO) approximation separates electronic and nuclear motions under the assumption 
 that electrons can follow the nuclear dynamics almost instantaneously and provides the mathematical 
@@ -27,6 +27,7 @@ differential equation in an entirely different way, and split the 6 degrees of
 freedom into 1 vibrational mode, 2 rotational modes, and 3 electronic type
 degrees of freedom. This qualitatively different description does by no means
 follow from a purely mathematical discussion.
+
 > —Primas H.
 
 This reasoning indicates that the introduction of the BO approximation implies making an a priori 
@@ -40,6 +41,7 @@ the general case of interacting particles involves asymmetric radial wave functi
 with angular anisotropy, e.g. in atomic excited states.
 Further careful analysis is required for the proper description of correlation effects resulting 
 from the repulsion of charged equivalent particles subject to the Pauli exclusion principle. 
+
 Both the description of quantum systems excluding empirical assumptions and the accurate 
 treatment of inter-particle correlations, are the target of this research project.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: Exact Factorization of the Nuclear Electronic Wavefunction 
+title: Exact Factorization of the Nuclear Electronic Wavefunction 
+description: Numerical method based on the exact single product Ansatz
 img: 
 importance: 4
 category: research

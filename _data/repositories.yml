@@ -1,6 +1,5 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - amuolo
 
 github_repos:
   - amuolo/bagel

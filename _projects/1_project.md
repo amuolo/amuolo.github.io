@@ -7,8 +7,7 @@ importance: 1
 category: research
 ---
 
-# Is it possible to observe the emergence of molecular structure as an inherent feature 
-# of quantum theory without making empirical assumptions? 
+**Is it possible to observe the emergence of molecular structure as an inherent feature of quantum theory without making empirical assumptions?**
 
 The Born-Oppenheimer (BO) approximation separates electronic and nuclear motions under the assumption 
 that electrons can follow the nuclear dynamics almost instantaneously and provides the mathematical 

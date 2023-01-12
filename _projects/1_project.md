@@ -27,7 +27,6 @@ differential equation in an entirely different way, and split the 6 degrees of
 freedom into 1 vibrational mode, 2 rotational modes, and 3 electronic type
 degrees of freedom. This qualitatively different description does by no means
 follow from a purely mathematical discussion.
-
 > —Primas H.
 
 This reasoning indicates that the introduction of the BO approximation implies making an a priori 

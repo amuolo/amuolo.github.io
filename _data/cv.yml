@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Andrea Muolo
     - name: Date of Birth
-      value: 14th March 1879
+      value: 19th March 1991
     - name: Languages
-      value: English, German
+      value: English, Italian
 
 - title: Education
   type: time_table

@@ -6,15 +6,9 @@ If you like the theme, give it a star.
 
 ## Table Of Contents
 
-  * [User community](#user-community)
-  * [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
   * [Getting started](#getting-started)
-    + [Installation](#installation)
-      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
-      - [Local Setup (Standard)](#local-setup-standard)
-      - [Deployment](#deployment)
-      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
-    + [FAQ](#faq)
+  * [Installation](#installation)
+  * [Deployment](#deployment)
   * [Features](#features)
     + [Publications](#publications)
     + [Collections](#collections)
@@ -27,9 +21,6 @@ If you like the theme, give it a star.
       - [Theming](#theming)
       - [Social media previews](#social-media-previews)
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)
-  * [Contributing](#contributing)
-    + [Core Contributors](#core-contributors)
-  * [License](#license)
 
 
 ## Getting started
@@ -55,7 +46,7 @@ After you are done, **commit** your final changes.
 ---
 
 
-#### Deployment
+## Deployment
 
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
 This repository will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:

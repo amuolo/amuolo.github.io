@@ -4,7 +4,7 @@
     - name: Full Name
       value: Andrea Muolo
     - name: Date of Birth
-      value: 19th March 1991
+      value: 19th January 1991
     - name: Languages
       value: English, Italian
 
@@ -12,8 +12,8 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Eidgenössische Technische Hochschule, ETH Zurich, Switzerland
+      year: 
       description:
         - Description 1.
         - Description 2.

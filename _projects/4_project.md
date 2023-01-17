@@ -2,7 +2,7 @@
 layout: page
 title: Exact Factorization of the Nuclear Electronic Wavefunction 
 description: Numerical method based on the exact single product Ansatz
-img: 
+img: ExactFactorizationEqs.png
 importance: 4
 category: research
 ---

@@ -1,21 +1,34 @@
 ---
 layout: page
-title: IFRS 17 Calculation Engine
-description: Open source implementation of the new economic accounting standard
-img: assets/img/ifrs17CE.jpg
+title: Hybrid Quantum-Classical Computing
+description: The quantum revolution is here, its name is hybrid
+img: assets/img/QuantumComputer.jpg
 importance: 5
-category: work
+category: research
 ---
 
-I have participated to the development of the Systemorph open-source International Financial Reporting Standard (IFRS) 
-calculation engine. The goal is to provide insurance companies a solution which everyone can utilize along with real data 
-in order to enable much richer and realistic discussions about the new standard and a better idea of how to interpret 
-and compare different results. 
+As quantum technology evolves and advances, the classical and quantum computation become increasingly more integrated,
+to be able to tackle real-life applications with existing quantum hardware. 
+The idea is to combine both classical and quantum computers in an attempt to take advantage of “the best of both worlds”.
 
-Development of the calculation engine required an in-depth study of the new principle-based economic accounting standard
-that has become effective since January 2023, and impacts all legal entities that write insurance contracts.
-In its nature, IFRS 17 is a valid initiative to make insurer's financial statements more comparable, as it introduces
-economic valuation of portfolios. It also attempts to make profitability more representative of the company current 
-financial situation, since it stipulates how the profit and loss must be recognized and allocated to each financial period.
+Together with state-of-the-art hardware and a bridging technology, I am studying these hybrid algorithms 
+to try to achieve an advantage over classical computing in areas such as optimization, machine learning, and simulation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

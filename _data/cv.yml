@@ -12,14 +12,18 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Chief of Evangelists
+    - title: Head of Systemorph Cloud Evangelists
       institution: Systemorph
-      year: Dec 2021 - now
+      year: Dec 2022 - now
       description:
-        - Tech enthusiast facilitating connection and conversion marketing
-        - Data modelling to empower end users to answer their own questions
-        - Method developmemnt to transform, test, deploy and document data 
-        
+        - Project Manager, organizing the platform development to meet client need and deadline
+        - Organize teaching material and conducting workshop with the client 
+        - Joined the Systemorph Cloud development team
+    
+    - title: Business Analyst
+      company: Systemorph
+      year: Dec 2021 - Nov 2022    
+    
     - title: Post-doctoral fellow
       institution: Hebrew University of Jerusalem, Israel
       year: Nov 2014 - Jul 2019
@@ -40,7 +44,14 @@
         - <u>Advisor:</u>  Prof. Dr. M. Reiher
         - <u>Examiner:</u> Prof. Dr. J. Richardson
         
-    - title: MSc Thesis in Theoretical Chemistry
+    - title: Second Level MSc in Science and Technologies
+      institution: Scuola Universitaria Superiore di Pavia (IUSS)
+      year: Oct 2009 - Sept 2014
+      description: 
+        - Focus on transversal and interdisciplinary culture, with a proactive approach
+        - Face the future with responsibility and confidence to build innovative and sustainable projects and solutions
+
+    - title: MSc Thesis in Statistical Mechanics
       institution: University of Cambridge
       year: Jan 2014 - Sept 2014
       description:
@@ -84,6 +95,12 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Quantum computing
+      items: 
+        - Quantum computing has the potential to solve long-standing computational problems that are considered
+          intractable with classical computers. 
+        - Optimization problems are ubiquitous, and improvements in this field can lead to groundbreaking discoveries.
+
     - title: Nuclear quantum effects 
       items: 
         - Rigorous prediction of chemical reactivity and dynamical properties through 
@@ -114,9 +131,9 @@
 - title: Skills and Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Opera-lover, amateur political philosopher.
+    - <u>Hobbies:</u> Diving into different points of view.
     - <u>Sport:</u> Decent swimmer, passionate sailor, tactical defensor on a football pitch,
-                      beloved volleyball player, professional rower on single scull and quad.
+                    beloved volleyball player, professional rower on single scull and quad.
     - <u>Dance:</u> Dancer of timba, son, bachata, rumba, contemporary afro.
     
     

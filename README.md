@@ -31,17 +31,15 @@ Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/0
 
 ## Installation
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:amuolo/amuolo.github.io` to `github.com:<your-username>/<your-repo-name>` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system, do the following:
 
 ```bash
-$ git clone git@github.com:<your-username>/<your-repo-name>.git
-$ cd <your-repo-name>
+$ cd <repo-name>
 $ bundle install
 $ bundle exec jekyll serve
 ```
 
-Now, feel free to customize the theme however you like (don't forget to change the name!).
-After you are done, **commit** your final changes.
+The theme is ready for customization.
 
 ---
 
@@ -62,7 +60,7 @@ This repository will automatically re-deploy your webpage each time you push new
 For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
 
 
-<details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
+<details><summary> <strong>Manual deployment to GitHub Pages:</strong></summary>
 
 If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
 ```bash
@@ -72,7 +70,7 @@ uses the `master` branch for the source code and deploys the webpage to `gh-page
 
 </details>
 
-<details><summary>(click to expand) <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
+<details><summary> <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
 ```bash
@@ -85,39 +83,6 @@ Then simply copy the contents of the `_site/` foder to your hosting server.
 
 </details>
 
-<details><summary>(click to expand) <strong>Deployment to a separate repository (advanced users only):</strong></summary>
-
-**Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
-
-Let's assume that your website's publishing source is a `publishing-source` sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
-For a user site this could well be something like `$HOME/<user>.github.io`.
-
-Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
-
-Then from the website sources dir (commonly your al-folio fork's clone):
-```bash
-$ bundle exec jekyll build --destination $HOME/repo/publishing-source
-```
-
-This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
-
-**Note:** Jekyll will clean `$HOME/repo/publishing-source` before building!
-
-The quote below is taken directly from the [jekyll configuration docs](https://jekyllrb.com/docs/configuration/options/):
-
-> Destination folders are cleaned on site builds
->
-> The contents of `<destination>` are automatically cleaned, by default, when the site is built. Files or folders that are not created by your site will be removed. Some files could be retained by specifying them within the `<keep_files>` configuration directive.
->
-> Do not use an important location for `<destination>`; instead, use it as a staging area and copy files from there to your web server.
-
-If `$HOME/repo/publishing-source` contains files that you want jekyll to leave untouched, specify them under `keep_files` in `_config.yml`.
-In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behaviour, add `README.md` under `exclude` in `_config.yml`.
-
-**Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
-
-</details>
-
 ---
 
 
@@ -125,48 +90,11 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 ### Publications
 
-Your publications page is generated automatically from your BibTex bibliography.
+The publications page is generated automatically from your BibTex bibliography.
 Simply edit `_bibliography/papers.bib`.
 You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
-<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/publications-screenshot.png" width=800></p>
-
-<details><summary>(click to expand) <strong>Author annotation:</strong></summary>
-
-In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
-```
-scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-```
-If the entry matches one form of the last names and the first names, it will be underlined.
-Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
-The coauthor data format in `_data/coauthors.yml` is as follows,
-```
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
-
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"Bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-```
-If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
-
-</details>
-
-<details><summary>(click to expand) <strong>Buttons (through custom bibtex keywords):</strong></summary>
+<details><summary> <strong>Buttons (through custom bibtex keywords):</strong></summary>
 
 There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage:
 
@@ -192,82 +120,34 @@ You can implement your own buttons by editing the bib.html file.
 
 ### Collections
 
-This Jekyll theme implements `collections` to let you break up your work into categories.
-The theme comes with two default collections: `news` and `projects`.
+This Jekyll theme implements `collections` to organize the work into categories. There are two default collections: `news` and `projects`.
 Items from the `news` collection are automatically displayed on the home page.
 Items from the `projects` collection are displayed on a responsive grid on projects page.
 
-<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/projects-screenshot.png" width=700></p>
-
-You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
-To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
+For customizations, edit the collections in the `_config.yml` file, create a corresponding folder, 
+and create a landing page for your collection, similar to `_pages/projects.md`.
 
 ---
 
 ### Layouts
 
-**al-folio** comes with stylish layouts for pages and blog posts.
+This theme also allows to create blog posts in the [distill.pub](https://distill.pub/) style.
 
-#### The iconic style of Distill
-
-The theme allows you to create blog posts in the [distill.pub](https://distill.pub/) style:
-
-<p align="center"><a href="https://alshedivat.github.io/al-folio/blog/2021/distill/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/distill-screenshot.png" width=700></a></p>
-
-For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2021/distill/).
-
-#### Full support for math & code
-
-**al-folio** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
-
-<p align="center">
-<a href="https://alshedivat.github.io/al-folio/blog/2015/math/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/math-screenshot.png" width=400></a>
-<a href="https://alshedivat.github.io/al-folio/blog/2015/code/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/code-screenshot.png" width=400></a>
-</p>
-
-#### Photos
+It supports fast math typesetting through [MathJax](https://www.mathjax.org/) 
+and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
 
 Photo formatting is made simple using [Bootstrap's grid system](https://getbootstrap.com/docs/4.4/layout/grid/).
-Easily create beautiful grids within your blog posts and project pages:
-
-<p align="center">
-  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
-    <img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/photos-screenshot.png" width="75%">
-  </a>
-</p>
 
 ---
 
 ### Other features
 
-#### GitHub repositories and user stats
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
+This theme uses github-readme-stats to display GitHub repositories and user stats on the the `/repositories/` page.
 
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
 
-You may also use the following codes for displaying this in any other pages.
-```
-<!-- code for GitHub users -->
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.html username=user %}
-  {% endfor %}
-</div>
-{% endif %}
-
-<!-- code for GitHub repositories -->
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.html repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
-```
-
 #### Theming
-A variety of beautiful theme colors have been selected for you to choose from.
+
 The default is purple, but you can quickly change it by editing the
 `--global-theme-color` variable in the `_sass/_themes.scss` file.
 Other color variables are listed there as well.
@@ -276,7 +156,8 @@ You can also add your own colors to this file assigning each a name for ease of
 use across the template.
 
 #### Social media previews
-**al-folio** supports preview images on social media.
+
+The theme supports preview images on social media.
 To enable this functionality you will need to set `serve_og_meta` to `true` in your `_config.yml`.
 Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
 
@@ -286,6 +167,7 @@ If for an individual page this variable is not set, then the theme will fall bac
 In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
 #### Atom (RSS-like) Feed
+
 It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers.
 The feed is reachable simply by typing after your homepage `/feed.xml`.
 E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`

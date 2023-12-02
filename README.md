@@ -1,7 +1,6 @@
 # Andrea Muolo
 
-My personal [Jekyll](https://jekyllrb.com/) theme for my website.
-If you like the theme, give it a star.
+My personal [Jekyll](https://jekyllrb.com/) theme for my website. If you like it, please give it a star.
 
 
 ## Table Of Contents
@@ -13,11 +12,7 @@ If you like the theme, give it a star.
     + [Publications](#publications)
     + [Collections](#collections)
     + [Layouts](#layouts)
-      - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math & code](#full-support-for-math--code)
-      - [Photos](#photos)
     + [Other features](#other-features)
-      - [GitHub repositories and user stats](#github-repositories-and-user-stats)
       - [Theming](#theming)
       - [Social media previews](#social-media-previews)
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)

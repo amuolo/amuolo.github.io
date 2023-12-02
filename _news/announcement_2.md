@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-11-01 11:30:00-0000
+date: 2023-08-03 09:30:00-0000
 inline: true
 ---
 
-Today at the Company Update meeting rewarded with a gorgeous promotion: I am Chief Evangelist!
+Now conducting a workshop with our client! Demoing our solution and enabling the team to use and expand it!  

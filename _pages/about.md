@@ -27,7 +27,7 @@ and use my positive attitude and tireless energy to drive the colleagues and cli
 Today, I am Chief Evangelist of the Systemorph Cloud and developer of the Systemorph open-source IFRS 17 calculation engine.
 In this role, I have the fortune to develop and then conduct presentations of tailor made business web applications to our clients
 across the (re-)insurance industry sector.
-In this role, I have been complementing my scientific background with experience in actuarial methodologies and accounting standards,
+This has allowed me to complement my scientific background with experience in actuarial methodologies and accounting standards,
 and deal daily with data modelling, actuarial business logic, digital workflows, and macroeconomics.
 
 My career and personal development are fueled by a persistent curiosity and the brightest belief that I can contribute

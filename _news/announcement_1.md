@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-12-01 11:30:00-0000
+date: 2023-10-16 12:00:00-0000
 inline: true
 ---
 
-Publishing the first <a href='https://www.youtube.com/watch?v=WQFn58gFhaM'>episode of the IFRS 17 Series</a>. Check it out!
+One week in Cyprus to finish our new product: the Systemorph App 2.0! #digitalnomad

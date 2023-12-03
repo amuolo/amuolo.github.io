@@ -40,6 +40,27 @@ $ bundle exec jekyll serve
 
 The theme is ready for customization.
 
+<details><summary> <strong>Including rows of images</strong></summary>
+
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
+
+```html
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+```
+
 ---
 
 
@@ -59,7 +80,7 @@ This repository will automatically re-deploy your webpage each time you push new
 For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
 
 
-<details><summary> <strong>Manual deployment to GitHub Pages:</strong></summary>
+<details><summary> <strong>Manual deployment to GitHub Pages</strong></summary>
 
 If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
 ```bash
@@ -69,7 +90,7 @@ uses the `master` branch for the source code and deploys the webpage to `gh-page
 
 </details>
 
-<details><summary> <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
+<details><summary> <strong>Deployment to another hosting server (non GitHub Pages)</strong></summary>
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
 ```bash
@@ -93,7 +114,7 @@ The publications page is generated automatically from your BibTex bibliography.
 Simply edit `_bibliography/papers.bib`.
 You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
-<details><summary> <strong>Buttons (through custom bibtex keywords):</strong></summary>
+<details><summary> <strong>Buttons (through custom bibtex keywords)</strong></summary>
 
 There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage:
 
@@ -141,35 +162,6 @@ The default is purple, but you can quickly change it by editing the
 Other color variables are listed there as well.
 The stock theme color options available can be found at `_sass/variables.scss`.
 You can also add your own colors to this file assigning each a name for ease of use across the template.
-
-#### Layout
-
-Every page can be customized and several items can be included as well:
-
-<details><summary> <strong>Rows of images:</strong></summary>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-```
-{% endraw %}
-
-</details>
 
 #### Social media previews
 

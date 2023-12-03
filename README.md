@@ -11,7 +11,6 @@ My personal [Jekyll](https://jekyllrb.com/) theme for my website. If you like it
   * [Features](#features)
     + [Publications](#publications)
     + [Collections](#collections)
-    + [Layouts](#layouts)
     + [Other features](#other-features)
       - [Theming](#theming)
       - [Social media previews](#social-media-previews)
@@ -22,6 +21,10 @@ My personal [Jekyll](https://jekyllrb.com/) theme for my website. If you like it
 
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+
+This theme allows to create blog posts in the [distill.pub](https://distill.pub/) style.
+It also supports fast math typesetting through [MathJax](https://www.mathjax.org/).
+Photo formatting is made simple using [Bootstrap's grid system](https://getbootstrap.com/docs/4.4/layout/grid/).
 
 
 ## Installation
@@ -124,17 +127,6 @@ and create a landing page for your collection, similar to `_pages/projects.md`.
 
 ---
 
-### Layouts
-
-This theme also allows to create blog posts in the [distill.pub](https://distill.pub/) style.
-
-It supports fast math typesetting through [MathJax](https://www.mathjax.org/) 
-and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
-
-Photo formatting is made simple using [Bootstrap's grid system](https://getbootstrap.com/docs/4.4/layout/grid/).
-
----
-
 ### Other features
 
 This theme uses github-readme-stats to display GitHub repositories and user stats on the the `/repositories/` page.
@@ -147,8 +139,7 @@ The default is purple, but you can quickly change it by editing the
 `--global-theme-color` variable in the `_sass/_themes.scss` file.
 Other color variables are listed there as well.
 The stock theme color options available can be found at `_sass/variables.scss`.
-You can also add your own colors to this file assigning each a name for ease of
-use across the template.
+You can also add your own colors to this file assigning each a name for ease of use across the template.
 
 #### Social media previews
 
@@ -165,7 +156,7 @@ In both the page-specific and site-wide cases, the `og_image` variable needs to 
 
 It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers.
 The feed is reachable simply by typing after your homepage `/feed.xml`.
-E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
+
 
 
 

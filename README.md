@@ -13,6 +13,7 @@ My personal [Jekyll](https://jekyllrb.com/) theme for my website. If you like it
     + [Collections](#collections)
     + [Other features](#other-features)
       - [Theming](#theming)
+      - [Layout](#layout)
       - [Social media previews](#social-media-previews)
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)
 
@@ -140,6 +141,35 @@ The default is purple, but you can quickly change it by editing the
 Other color variables are listed there as well.
 The stock theme color options available can be found at `_sass/variables.scss`.
 You can also add your own colors to this file assigning each a name for ease of use across the template.
+
+#### Layout
+
+Every page can be customized and several items can be included as well:
+
+<details><summary> <strong>Rows of images:</strong></summary>
+
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
+
+{% raw %}
+```html
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+```
+{% endraw %}
+
+</details>
 
 #### Social media previews
 

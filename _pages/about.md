@@ -29,6 +29,7 @@ across the (re-)insurance industry sector.
 This has allowed me to complement my scientific background with experience in actuarial methodologies and accounting standards,
 and deal daily with data modelling, actuarial business logic, digital workflows, and macroeconomics.
 
-My career and personal development are fueled by a persistent curiosity and the brightest belief that I can contribute
-at the frontline of innovation.
+My career and personal development are fueled by a persistent curiosity.
+I don't see physics as a tool just to build technologies. I see technologies as a way for us to probe the mysteries of nature
+and reveal more about this hidden world outside of our experiences.
 

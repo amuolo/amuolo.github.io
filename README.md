@@ -1,6 +1,6 @@
 # Andrea Muolo
 
-My personal [Jekyll](https://jekyllrb.com/) theme for my website. If you like it, please give it a star.
+My personal GitHub website. If you like it, please give it a star.
 
 
 ## Table Of Contents

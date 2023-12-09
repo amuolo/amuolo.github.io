@@ -3,7 +3,12 @@ github_users:
 
 github_repos:
   - amuolo/bagel
+  - amuolo/blueberry
+  - amuolo/quantumberry
   - amuolo/amuolo.github.io 
+  - amuolo/website.wedding
+  - amuolo/openacc-vademecum
   - Systemorph/IFRS17CalculationEngine
+  - Systemorph/Product-Promotion
 
 

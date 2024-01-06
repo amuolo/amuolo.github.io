@@ -12,19 +12,19 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Chief Evangelist - Software Engineer - Business Analyst
+    - title: Senior Analytics Engineer and .NET developer
       institution: Systemorph
       year: Dec 2022 - now
       description:
-        - Project Manager, organizing the platform development to meet client needs
-        - Organize teaching material and conducting workshop with the client 
-        - Contributing to the development of the Systemorph Cloud platform and product
+        - Developer of the Systemorph Cloud platform and Chief Evangelist
+        - Organize and conduct presentations to clients, on-site trainings, and workshops
+        - Tech advocate, lead POCs and implementation of custom web-apps, from data modelling, to business logic and digital workflows
     
-    - title: Junior Business Analyst
+    - title: Junior Analytics Engineer
       institution: Systemorph
       year: Dec 2021 - Nov 2022
       description: 
-        - Identify the most appropriate data model and formulate the actuarial methodology to strengthen and make business processes efficient
+        - Identify the most appropriate data model, formulate, implement and optimize the actuarial methodology, and digitalize business processes
     
     - title: Post-doctoral fellow
       institution: Hebrew University of Jerusalem, Israel

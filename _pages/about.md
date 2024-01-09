@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://systemorph.cloud/community/'>Head of Systemorph Cloud Evangelists - Software Engineer - Business Analyst</a>
+subtitle: <a href='https://systemorph.cloud/community/'> Senior Analytics Engineer and .NET/C++ Developer </a>
 
 profile:
   align: right

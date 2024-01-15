@@ -12,33 +12,33 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Senior Analytics Engineer and .NET developer
+    - title: Senior Analytics Engineer and .NET Developer
       institution: Systemorph
       year: Dec 2022 - now
       description:
-        - Developer of the Systemorph Cloud platform and Chief Evangelist
-        - Organize and conduct presentations to clients, on-site trainings, and workshops
-        - Tech advocate, lead POCs and implementation of custom web-apps, from data modelling, to business logic and digital workflows
+        - Developer of the Systemorph Cloud platform and Chief Evangelist.
+        - Organize and conduct presentations to clients, on-site trainings, and workshops.
+        - Tech advocate, lead POCs and implementation of custom web-apps, from data modelling, to business logic and digital workflows.
     
-    - title: Junior Analytics Engineer
+    - title: Junior Analytics Engineer and .NET Developer
       institution: Systemorph
       year: Dec 2021 - Nov 2022
       description: 
-        - Identify the most appropriate data model, formulate, implement and optimize the actuarial methodology, and digitalize business processes
+        - Identify and implement tailored data models. Formulate or migrate actuarial methodology and digital workflows. Everything in C\# and MS-SQL.
     
     - title: Post-doctoral fellow
       institution: Hebrew University of Jerusalem, Israel
       year: Oct 2019 - Nov 2021
       description: 
-        - Exact factorization techniques in molecular physics
-        - Genuine predictions on the molecular Berry phase
+        - Research on Exact factorization techniques in molecular physics.
+        - Genuine predictions on the molecular Berry phase. Methods developed in C++20.
     
     - title: Teaching and Research Assistant
       institution: Eidgenössische Technische Hochschule, ETH Zurich, Switzerland
       year: Dec 2018 - Sept 2019
       description: 
-        - Many-body Dirac Equation and relativistic quantum mechanics
-        - Pre-Born–Oppenheimer Tensor Network Algorithms
+        - Research on Many-body Dirac Equation and relativistic quantum mechanics.
+        - Method development Pre-Born–Oppenheimer and Tensor Network in C++17.
 
 
 - title: Education
@@ -56,8 +56,8 @@
       institution: Scuola Universitaria Superiore di Pavia (IUSS)
       year: Oct 2009 - Sept 2014
       description: 
-        - Focus on transversal and interdisciplinary culture, with a proactive approach
-        - Face the future with responsibility and confidence to build innovative and sustainable projects and solutions
+        - Focus on transversal and interdisciplinary culture, with a proactive approach.
+        - Face the future with responsibility and confidence to build innovative and sustainable projects and solutions.
 
     - title: MSc Thesis in Statistical Mechanics
       institution: University of Cambridge
@@ -71,8 +71,8 @@
       institution: Università degli Studi di Pavia
       year: Oct 2009 - Sept 2014
       description:
-        - Fellow of the Scuola Universitaria Superiore di Pavia (IUSS)
-        - Student at Ghislieri College
+        - Fellow of the Scuola Universitaria Superiore di Pavia (IUSS).
+        - Student at Ghislieri College.
 
 
 - title: Open Source Projects

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://systemorph.cloud/community/'> Senior Analytics Engineer and .NET/C++ Developer </a>
+subtitle: <a href='https://systemorph.cloud/community/'> Senior Analytics Engineer and .NET Developer </a>
 
 profile:
   align: right
@@ -16,20 +16,29 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Earning my PhD in Natural Sciences from the ETH University rewarded my strong affection and curiosity for natural phenomena
-and marked the start of several semi-independent research projects spanning from method development to
-algebraic manipulation and novel integral evaluations in the field of relativistic quantum mechanics.
+Earning my PhD in Natural Sciences from the ETH Zürich, rewarded my strong affection and curiosity for natural phenomena
+and marked the start of several independent research projects spanning from method development to algebraic manipulation 
+and novel analytical and numerical solutions to integrals emerging in relativistic quantum mechanics.
 
-I specialize in computer simulations, numerical methods and innovation. I am a powerful force in the workplace
-and use my positive attitude and tireless energy to drive the colleagues and clients to achieve their goals effortlessly.
+I specialize in computer simulations, numerical methods and innovation. 
+Throughout my academic career, I have been developing and maintaining programs written in modern C++ using several libraries, 
+such as Boost, Armadillo, Eigen, and tools such as Mathematica.
+The methods I develop can run flexibly on desktop hardware or supercomputers. To achieve the maximum performance
+I designed each algorithm to be intrinsically parallel, and I mastered OpenMP, MPI, OpenAcc standards, and in general 
+different coding techniques and design patterns.
 
-Today, I am Chief Evangelist of the Systemorph Cloud and developer of the Systemorph open-source IFRS 17 calculation engine.
-In this role, I have the fortune to develop and then conduct presentations of tailor made business web applications to our clients
-across the (re-)insurance industry sector.
-This has allowed me to complement my scientific background with experience in actuarial methodologies and accounting standards,
-and deal daily with data modelling, actuarial business logic, digital workflows, and macroeconomics.
+Today, I work as Senior Analytics Engineer at Systemorph, an innovative Swiss startup focusing on cloud solutions for the insurance industry sector. 
+I am also a .NET developer of the Systemorph Cloud platform and the Systemorph open-source IFRS 17 calculation engine.
+In this role, I have had the fortune to develop tailor made web applications, understanding cloud architecture design, microservices, and actor-model.
+Moreover, I have been able to complement my technical abilities with business oriented knowledge ranging from data modelling to 
+implementing digital workflow and business processes. I have also been granted the possibility to conduct a POC, organize on-site workshops 
+and presentations of our product, therefore improving my public speaking. 
+
+I believe my work experience allowed me to stand as a powerful and flexible work-force, using my collaborative spirit, high-motivation, 
+positive attitude and tireless energy to drive the colleagues and clients to achieve their goals effortlessly.  
 
 My career and personal development are fueled by a persistent curiosity.
-I don't see physics as a tool just to build technologies. I see technologies as a way for us to probe the mysteries of nature
-and reveal more about this hidden world outside of our experiences.
+
+<!-- I don't see physics as a tool just to build technologies. I see technologies as a way for us to probe the mysteries of nature
+and reveal more about this hidden world outside of our experiences. -->
 

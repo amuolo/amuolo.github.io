@@ -2,7 +2,7 @@
 layout: page
 title: Actor Model
 description: Concurrent computation framework
-img: cartoon-actors.jpg
+img: assets/img/cartoon-actors.jpg
 importance: 5
 category: fun
 ---

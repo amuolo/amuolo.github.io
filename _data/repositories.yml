@@ -9,6 +9,7 @@ github_repos:
   - amuolo/website.wedding
   - amuolo/openacc-vademecum
   - amuolo/data-management
+  - amuolo/transactional-data-webapp
   - Systemorph/IFRS17CalculationEngine
   #- Systemorph/Product-Promotion
 

@@ -6,25 +6,25 @@
     - name: Date of Birth
       value: 19th January 1991
     - name: Languages
-      value: English, Italian
+      value: English, Italian, German
       
       
 - title: Experience
   type: time_table
   contents:
-    - title: Senior Analytics Engineer and .NET Developer
+    - title: Senior .NET Developer and Business Analyst
       institution: Systemorph
       year: Dec 2022 - now
       description:
-        - Developer of the Systemorph Cloud platform and Chief Evangelist.
+        - Develop the Systemorph Cloud platform and client-tailored web-apps..
+        - Tech advocate, lead POCs and responsible for implementation, from data modelling, to business logic and digital workﬂows.
         - Organize and conduct presentations to clients, on-site trainings, and workshops.
-        - Tech advocate, lead POCs and implementation of custom web-apps, from data modelling, to business logic and digital workflows.
     
-    - title: Junior Analytics Engineer and .NET Developer
+    - title: Junior .NET Developer and Business Analyst
       institution: Systemorph
       year: Dec 2021 - Nov 2022
       description: 
-        - Identify and implement tailored data models. Formulate or migrate actuarial methodology and digital workflows. Everything in C\# and MS-SQL.
+        - Identify and implement tailored data models. Formulate or migrate actuarial methodology and digital workﬂows. Everything in .NET Core, EF, MS-SQL.
     
     - title: Post-doctoral fellow
       institution: Hebrew University of Jerusalem, Israel
@@ -66,6 +66,7 @@
         - Develop a classical dynamic conserving the quantum Boltzmann distribution
         - <u>Final grade:</u> 110/110 cum laude
         - <u>Supervisor:</u> Prof. Dr. S. Althorpe
+        - <u>Co-supervisor:</u> Prof. Dr. S. Romano
         
     - title: BSc & MSc Degrees in Physical Chemistry
       institution: Università degli Studi di Pavia

@@ -17,15 +17,16 @@
       year: Dec 2022 - now
       description:
         - Developer of the Systemorph Cloud platform and client-tailored web-apps.
-        - Tech advocate, led POCs and responsible for meeting clients, absorbing business specifications, and implementation, from data modelling, to business logic (actuarial methodologies, accounting standards, etc.), business processes, UX design, and modern cloud architecture principles.
+        - Experience with modern cloud architecture principles. Tech stack: .NET Core, .NET Compiler, C\#, Entity Framework, MS SQL, Kubernetes, Docker.
+        - Led POCs and responsible for meeting clients, discussing business specifications, from data modelling, to business logic (e.g. actuarial methodologies, accounting standards), business processes, UX design.
         - Organize and conduct presentations to clients, on-site trainings, and workshops.
-        - Developer and tester of in-house C# modules, creation of concept applications to push the limits of our technology and foster our community of devs.
+        - Developer and tester of in-house C\# packages and concept applications to push the limits of our technology and foster our community of devs. Tech advocate.
     
-    - title: Junior .NET Developer and Business Analyst
+    - title: .NET Developer and Business Analyst
       institution: Systemorph
       year: Dec 2021 - Nov 2022
       description: 
-        - Receive business specifications from clients and stakeholders and implement tailored data models, business formulas and processes in modular, scalable, and resilient web applications. Experience with actuarial methodologies and accounting standards. Implementations realized in the .NET framework.
+        - Receive business specifications from stakeholders and implement tailored data models, business formulas and processes in modular, scalable, and resilient web applications. Experience with actuarial methodologies and accounting standards.
     
     - title: Post-doctoral fellow
       institution: Hebrew University of Jerusalem, Israel

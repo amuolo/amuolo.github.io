@@ -1,0 +1,160 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Andrea Muolo
+    - name: Date of Birth
+      value: 19th January 1991
+    - name: Languages
+      value: English, Italian, German
+      
+      
+- title: Experience
+  type: time_table
+  contents:
+    - title: Software Engineer and Business Analyst
+      institution: Systemorph
+      year: Dec 2021 - now
+      description:
+        - Assist clients in the insurance industry sector to effortlessly achieve their goals. 
+          Simplify their transition from complex spreadsheets to efficient business applications 
+          tackling data management and data governance.
+        - I successfully led a Proof of Concept aimed at designing and building a business web app 
+          to address the Own Risk Solvency Assessment. I was responsible for negotiating specifications 
+          and requirements with clients and stakeholders, providing guidance on business logic, actuarial 
+          methodology implementation, and business processes. Focus on auditability and governance.
+        - Organize and conduct presentations to clients, on-site trainings, and workshops.
+        - Skilled Backend Engineer proficient in Scrum methodology and test driven development. 
+          Made significant contributions to the development of the Systemorph Cloud Platform (platform as a service), 
+          and several in-house packages for data import, report generation, data persistence, data modelling, 
+          business logic implementation, and business process management.
+        - Thrilled by modern design patterns. Researched, architect and implemented concurrency models founded 
+          on the actor model and microservices.
+        - Developer and tester of concept applications to showcase our technology and foster our community of users. 
+          Product promotion and marketing initiatives.
+        
+    - title: Research Scientist - Computational Physics
+      institution: Fritz Haber Center for Molecular Dynamics
+      year: Oct 2019 - Nov 2021
+      description: 
+        - Development of analytical solutions and numerical methods for studying topological properties of non-adiabatic quantum states. 
+          Genuine predictions on the Berry phase. Algorithms developed in C++20 and run on HPC.
+    
+    - title: Teaching and Research Assistant
+      institution: Eidgenössische Technische Hochschule, ETH Zurich, Switzerland
+      year: Dec 2018 - Sept 2019
+      description: 
+        - Many-body Dirac Equation and relativistic quantum mechanics. Novel analytical and numerical solutions to integrals 
+          to enable symmetry projected optimization. Method development, Pre-Born–Oppenheimer and Tensor Networks algorithm. 
+          Rich experience in concurrent and distributed computing using C++17.
+
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Doctor of Sciences of ETH Zürich
+      institution: Eidgenössische Technische Hochschule, ETH Zurich, Switzerland
+      year: Nov 2014 - Dec 2018
+      description:
+        - Explicitly Correlated Gaussians and the Quantum Few-Body Problem.
+        - Algorithm engineering, embrace exciting engineering challenges to meet extreme scaling requirements and numerical stability, safety, and maintainability aspects.
+        - <u>Advisor:</u>  Prof. Dr. M. Reiher
+        - <u>Examiner:</u> Prof. Dr. J. Richardson
+        
+    - title: Second Level MSc in Science and Technologies
+      institution: Scuola Universitaria Superiore di Pavia (IUSS)
+      year: Oct 2009 - Sept 2014
+      description: 
+        - Focus on transversal and interdisciplinary culture, with a proactive approach.
+        - Face the future with responsibility and confidence to build innovative and sustainable projects and solutions.
+
+    - title: MSc Thesis in Statistical Mechanics
+      institution: University of Cambridge
+      year: Jan 2014 - Sept 2014
+      description:
+        - Develop a classical dynamic conserving the quantum Boltzmann distribution
+        - <u>Final grade:</u> 110/110 cum laude
+        - <u>Supervisor:</u> Prof. Dr. S. Althorpe
+        - <u>Co-supervisor:</u> Prof. Dr. S. Romano
+        
+    - title: BSc & MSc Degrees in Physical Chemistry
+      institution: Università degli Studi di Pavia
+      year: Oct 2009 - Sept 2014
+      description:
+        - Fellow of the Scuola Universitaria Superiore di Pavia (IUSS).
+        - Student at Ghislieri College.
+
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/Systemorph/IFRS17CalculationEngine">IFRS 17 Calculation Engine</a>
+      year: Dec 2021 - now
+      description: It provides the functionality to develop and maintain an IFRS 17 solution based on Systemorph Cloud.
+      
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2020
+      items: 
+        - Swiss National Science Foundation (SNSF) Fellowship
+        - Research Grant
+    - year: 2019
+      items:
+        - Student Supervision for Research Project
+        - Development of pre-Born–Oppenheimer Tensor Network Algorithms
+    - year: 2018
+      items: 
+        - Best Poster Presentation
+        - MOLIM General Meeting
+
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Quantum computing
+      items: 
+        - Quantum computing has the potential to solve long-standing computational problems that are considered
+          intractable with classical computers. 
+        - Optimization problems are ubiquitous, and improvements in this field can lead to groundbreaking discoveries.
+
+    - title: Nuclear quantum effects 
+      items: 
+        - Rigorous prediction of chemical reactivity and dynamical properties through 
+          the explicit treatment of quantum effects beyond the adiabatic approximation.
+        - Modeling correctly the exact wave function at short interparticle distances 
+          by explicitly introducing the interparticle distance in the functional form.
+        - Reaching chemical accuracy through the exact diagonalization of the Schödinger 
+          and Dirac–Coulomb Hamiltonians in a basis set expansion of explicitly correlated functions.
+          
+    - title: Method development
+      items:
+        - Develop new ab-initio nuclear electron methods 
+          that do not require any experimental parameters besides the charges and
+          masses of the particles involved, and that describe accurately quantum nuclear effects.
+        - I introduced the Nuclear Electronic All Particle (NEAP) providing
+          more accurate zero-point energies and proton densities than state-of-the-art results.
+
+    - title: Topological and geometrical properties in molecular Hamiltonians
+      items: 
+        - Study the emergence of the topological Berry phase through the analysis of the exact nuclear 
+          current vector field and the nuclear density in arbitrary precision floating-point arithmetic
+          for increasing nuclear mass value. 
+        - Investigate whether a non vanishing Berry phase survives, and if the non- analyticities 
+          of the potential energy surfaces at the conical intersection points
+          persist in the exact electron-nuclear treatment.
+
+
+- title: Skills and Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Diving into different points of view.
+    - <u>Sport:</u> Decent swimmer, passionate sailor, tactical defensor on a football pitch,
+                    beloved volleyball player, professional rower on single scull and quad.
+    - <u>Dance:</u> Dancer of timba, son, bachata, rumba, contemporary afro.
+    
+    
+    
+    
+    
